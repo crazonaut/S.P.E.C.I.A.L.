@@ -7,8 +7,10 @@ var press = function() {
 	document.getElementById('score').innerHTML = "Points: " + uscore;
 
 	if (uscore>highscore) {
-		document.getElementById('hiscore').innerHTML = "You have reached 300 points";
-		return;
-
+		document.getElementById('hiscore').innerHTML = "You have won";
+		return
 	}
+	// if (uscore=300) {
+	// 	document.getElementById('')
+	// }
 };
