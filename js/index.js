@@ -7,8 +7,14 @@ var press = function() {
 	document.getElementById('score').innerHTML = "Points: " + uscore;
 
 	if (uscore>highscore) {
+<<<<<<< Updated upstream
 		document.getElementById('hiscore').innerHTML = "You have won";
 		return
+=======
+		document.getElementById('hiscore').innerHTML = "STUFF HAPPENS NOW!";
+		return;
+
+>>>>>>> Stashed changes
 	}
 	// if (uscore=300) {
 	// 	document.getElementById('')
