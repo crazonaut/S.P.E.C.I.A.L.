@@ -7,8 +7,13 @@ var press = function() {
 	document.getElementById('score').innerHTML = "Points: " + uscore;
 
 	if (uscore>highscore) {
+<<<<<<< HEAD
 		document.getElementById('hiscore').innerHTML = "STUFF HAPPENS NOW!";
 		return;
 
+=======
+		document.getElementById('hiscore').innerHTML = "You have won";
+		return
+>>>>>>> origin/master
 	}
 };
