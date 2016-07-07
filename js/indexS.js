@@ -14,7 +14,7 @@ function check(){
 
  } else {
   console.log("You Win");
-  // window.location.replace('google.com')
+  window.location.replace('google.com')
   clearInterval(myVar);
  }
 };
