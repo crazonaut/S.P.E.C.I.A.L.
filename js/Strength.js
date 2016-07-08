@@ -14,7 +14,7 @@ function check(){
 
  } else {
   console.log("You Win");
-  window.location.replace('indexP.html')
+  window.location.replace('Perception.html');
   clearInterval(myVar);
  }
 };
