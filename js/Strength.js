@@ -8,7 +8,7 @@ function press() {
 
 function check(){
  if (uscore < 300){
-  document.getElementById('hiscore').innerHTML = "YOU FAILED! Press command+r to try again.";
+  document.getElementById('hiscore').innerHTML = "YOU FAILED! Press command+r to try again, or command+q if you give up :3";
   uscore = 0;
   clearInterval(myVar);
 
