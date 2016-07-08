@@ -4,5 +4,5 @@ function correct() {
 }
 function incorrect() {
 	console.log("NO");
-	document.getElementById('question').innerHTML = "YOU FAILED! You know whats correct now :(";
+	window.location.replace('Charisma.html');
 }
