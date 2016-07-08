@@ -4,5 +4,5 @@ function correct() {
 }
 function incorrect() {
 	console.log("NO");
-	document.getElementById('question').innerHTML = "YOU FAILED! Press command+r to try again, or command+q if you give up :3";
+	document.getElementById('question').innerHTML = "YOU FAILED! You know whats correct now :(";
 }
