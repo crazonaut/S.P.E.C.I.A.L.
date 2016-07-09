@@ -1,6 +1,6 @@
 function correct() {
 	console.log("YAY");
-	// window.location.replace('Charisma2.html');
+	window.location.replace('Intelligence.html');
 }
 function incorrect() {
 	console.log("NO");
