@@ -1,0 +1,1 @@
+document.getElementById('link').href = google.com
