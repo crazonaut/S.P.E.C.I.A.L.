@@ -5,5 +5,3 @@ document.getElementById('input_box').addEventListener('keyup',function (event){
 		document.getElementById('link').href = google.com
 	}
 });
-
-// ᖗ◔ᴥ◔ᖘʕ◔ᴥ◔ʔ
