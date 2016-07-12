@@ -1,7 +1,7 @@
 var loses = 0;
 
 function press() {
-	var number = Math.floor(Math.random()*18);
+	var number = Math.floor(Math.random()*3);
 	console.log(number);
 	loses++;
 	if (number===3) {
