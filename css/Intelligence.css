@@ -2,5 +2,9 @@
 	background-image: url("../assets/justdoit.png");
 }
 body{
-	text-align: center;
-}
+text-align: center;
+color:white;
+font-size: 40px;
+background-image: url(../assets/Intelligence.jpg);
+background-size:1375px 700px;
+};
