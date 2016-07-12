@@ -4,7 +4,7 @@ function press() {
 	var number = Math.floor(Math.random()*18);
 	console.log(number);
 	loses++;
-	if (number===3) {
+	if (number===4) {
 		window.location.replace('youwin.html')
 
 	}
