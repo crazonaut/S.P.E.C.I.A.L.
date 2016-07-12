@@ -9,7 +9,7 @@ function press() {
 
 	}
 	else{
-		document.getElementById('display').innerHTML = "You lose "+ loses+" times.";
+		window.location.replace('intelligence.html')
 	} 
 
 }
