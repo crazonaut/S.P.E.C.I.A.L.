@@ -1,7 +1,7 @@
 var loses = 0;
 
 function press() {
-	var number = Math.floor(Math.random()*18);
+	var number = Math.floor(Math.random()*10);
 	console.log(number);
 	loses++;
 	if (number===3) {
@@ -9,7 +9,8 @@ function press() {
 
 	}
 	else{
-		window.location.replace('intelligence.html')
+		window.location.replace('intelligence3.html')
+		console.log('lel')
 	} 
 
 }
