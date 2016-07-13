@@ -1,7 +1,7 @@
 var loses = 0;
 
 function press() {
-	var number = Math.floor(Math.random()*3);
+	var number = Math.floor(Math.random()*10);
 	console.log(number);
 	loses++;
 	if (number===3) {
@@ -9,7 +9,8 @@ function press() {
 
 	}
 	else{
-		document.getElementById('display').innerHTML = "You lose "+ loses+" times.";
+		window.location.replace('intelligence3.html')
+		console.log('lel')
 	} 
 
 }

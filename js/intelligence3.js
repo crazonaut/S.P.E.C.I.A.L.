@@ -5,7 +5,7 @@ function press(){
 
 function press2() {
 	console.log("log");
-	window.location.replace('/agility.html');
+	window.location.replace('/luck.html');
 };
 function presscorrect2() {
 	console.log("correct");
