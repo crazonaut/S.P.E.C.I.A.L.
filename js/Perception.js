@@ -1,7 +1,14 @@
-document.getElementById('input_box').addEventListener('keyup',function (event){
-	var string =  document.getElementById("input_box").value
 
-	if string ===''{
-		document.getElementById('link').href = google.com
-	}
+
+var passwordCheck = document.querySelector('#passwordForm');
+passwordCheck.addEventListener('submit', function(event) {
+  event.preventDefault();
+  passwordInput = this.querySelector('input').value;
+  console.log("User entered "+passwordInput);
+  if (passwordInput == 'you can literally type anything') {
+  	window.location.replace('Charisma.html')
+  }
+  else{
+  	document.getElementById('lel').innerHTML = "YOU FAILED! Try Again!";
+  }
 });
