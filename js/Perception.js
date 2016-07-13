@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 
 var passwordCheck = document.querySelector('#passwordForm');
 passwordCheck.addEventListener('submit', function(event) {
@@ -12,9 +11,4 @@ passwordCheck.addEventListener('submit', function(event) {
   else{
   	document.getElementById('lel').innerHTML = "YOU FAILED! Try Again!";
   }
-=======
-	if (input_box ==='HELLO'){
-		document.getElementById('link').href = google.com
-	}
->>>>>>> origin/master
 });
