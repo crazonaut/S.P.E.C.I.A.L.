@@ -3,7 +3,7 @@ var myVar;
 function press() {
 	 	uscore++;
 	document.getElementById('score').innerHTML = "Points: " + uscore;
-    myVar = setInterval(check, 40000);
+    myVar = setInterval(check, 30000);
 }
 
 function check(){
